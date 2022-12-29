@@ -80,8 +80,8 @@ function App() {
         onChange={(e) => setYear(e.target.value)}
         placeholder="western year"
       />
-      <textarea style={{ width: "300px", height: "300px" }} value={jpYear} placeholder="Japan year"/>
-      <textarea style={{ width: "300px", height: "300px" }} value={jpYearEng} placeholder="Japan year in English"/>
+      <textarea style={{ width: "300px", height: "300px" }} contentEditable={false} value={jpYear} placeholder="Japan year"/>
+      <textarea style={{ width: "300px", height: "300px" }} contentEditable={false} value={jpYearEng} placeholder="Japan year in English"/>
     </div>
   );
 }
