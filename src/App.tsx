@@ -68,9 +68,11 @@ function App() {
 
   return (
     <div className="App">
-      {/* <button onClick={handleTest}>test123</button> */}
+      {/* <button onClick={handleTest}>test123</buton> */}
       <h1>Japan Year Converter</h1>
-      <h2>Not yet from japan to western year, contact me if you want the feature: github @PPKan</h2>
+      <h3>split the year by new line</h3>
+      <h3>Not yet from japan to western year, contact me if you want the feature: github @PPKan</h3>
+      
       
       <textarea
         style={{ width: "300px", height: "300px" }}
